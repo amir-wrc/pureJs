@@ -1,0 +1,67 @@
+<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+  <a class="navbar-brand" href="#">methodeprime</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse"
+    aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarCollapse" *ngIf="userobj$ | async as userobj">
+    <ul class="navbar-nav">
+
+      <li class="nav-item">
+        <a class="nav-link" href="#/home">DASHBOARD</a>
+      </li>
+
+      <ng-container >
+      <li *ngIf="userRole == 'reviewer'" class="nav-item">
+        <a class="nav-link" routerLink="review">REVIEW</a>
+      </li>
+    </ng-container>
+      <li class="nav-item">
+        <a class="nav-link" href="#/todo">SCRATCH</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/contact-create">PUBLISHED</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/contact-create"><fa-icon [icon]="faTrash"></fa-icon><span class="ml-1">DELETED</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/contact-create"><fa-icon [icon]="faQuestionCircle"></fa-icon><span class="ml-1">Help</span></a>
+      </li>
+      <li class="nav-item">
+
+        <a class="nav-link" routerLink="/contact-create"><fa-icon [icon]="faPlus"></fa-icon><span class="ml-1">New</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/contact-create">Logout</a>
+      </li>
+
+
+    </ul>
+    <form class="mx-2 my-auto d-inline" style="width: 20%;">
+      <div class="input-group">
+          <input type="text" class="form-control border border-right-0" placeholder="Search...">
+          <span class="input-group-append">
+              <button class="btn btn-outline-secondary border border-left-0" type="button">
+                  <fa-icon [icon]="faSearch" class="icon-color"></fa-icon>
+              </button>
+          </span>
+      </div>
+  </form>
+
+    <div class="navbar-nav user-nav-profile">
+      <img src="https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/fox.jpg" width="40" height="40" class="mr-2">
+     <div>
+      <p class="mb-0">Abhinav</p>
+      <p class="mb-0">Consultant</p>
+     </div>
+
+    </div>
+
+
+    <!-- <span class="navbar-text white-text">
+      Navbar text with an
+
+    </span> -->
+  </div>
+</nav>

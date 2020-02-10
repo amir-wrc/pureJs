@@ -1,0 +1,47 @@
+/* You can add global styles to this file, and also import other style files */
+
+.progress{
+    background-color: #e0e0e0;
+    height: 1.5rem;
+    border-radius: 0 !important;
+    width: 83px;
+}
+
+
+.progress-bar {
+    background-color: #0f56bc;
+}
+
+.task-completed{
+    min-width: 1.5rem;
+    min-height: 1.5rem;
+    max-height: 1.5rem;
+    background-color: #4CAF50;
+    margin-left: 1rem;
+    position: relative;
+}
+
+.check-icon{
+    color: rgba(255,255,255,1.5);
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+
+.check-icon{
+    color: rgba(255,255,255,1.5);
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+.task-incompleted{
+    min-width: 1.5rem;
+    min-height: 1.5rem;
+    max-height: 1.5rem;
+    background-color: #FFAB01;
+    margin-left: 1rem;
+    position: relative;
+    border-radius: 50%;
+}

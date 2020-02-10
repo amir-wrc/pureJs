@@ -1,0 +1,62 @@
+<script type="text/javascript" src="../resources/js/todo.js"></script>
+<div class="card" id="draftsSection">
+
+    <div class="card-body">
+      <h5 class="card-title">DRAFT(14)</h5>
+      <div class="table-responsive" >
+        <table datatable [dtOptions]="dtOptions" [dtTrigger]="dtTrigger" class="row-border hover" width="100%" cellspacing="0">
+          <thead>
+            <tr>
+              <th scope="col">SHORT TITLE</th>
+              <th scope="col">TYPE</th>
+              <th scope="col" style="min-width: 180px;">STATE</th>
+              <th scope="col">MY ROLE</th>
+              <th scope="col">SECTION(S)</th>
+              <th scope="col">AUTHOR(S)</th>
+              <th scope="col">DEADLINE</th>
+              <th scope="col">ACTIONS</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let a of items">
+              <td style="color: #0f56bc;">{{a.SHORTTITLE}}</td>
+              <td>{{a.TYPE}}</td>
+              <td><div class="d-flex">
+                <div style="width: 83px;">
+                {{a.STATE}}
+              </div>
+              <div class="progress">
+              <div *ngIf="a.STATE=='Reviewed'" class="progress-bar" role="progressbar"  style="width: 75%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+              <div *ngIf="a.STATE=='Todo'" class="progress-bar" role="progressbar"  style="width: 5%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+              <div *ngIf="a.STATE=='Review'" class="progress-bar" role="progressbar"  style="width: 25%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+              <div *ngIf="a.STATE=='Completed'" class="progress-bar" role="progressbar"  style="width: 100%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"> </div>
+              <div *ngIf="a.STATE=='Completed'" class="checkbox checkbox-success">
+                <!-- <input id="checkbox10" type="checkbox" disabled="" checked="">-->
+                </div> 
+            </div>
+        
+            <div class="task-completed" *ngIf="a.STATE=='Completed'">
+              <fa-icon [icon]="faCheck" class="check-icon"></fa-icon>
+            </div>
+            <div class="task-incompleted" *ngIf="a.STATE=='Todo'">
+              <fa-icon [icon]="faExclamation" class="check-icon"></fa-icon>
+            </div>
+          </div>
+            </td>
+              <td>{{a.MYROLE}}</td>
+              <td>{{a.SECTION}}</td>
+              <td>{{a.AUTHOR}}</td>
+              <td>{{a.DEADLINE}}</td>
+              <td><select class="form-control">
+                <option value="0">Select</option>
+                <option >Review</option>
+                <option >Todo</option></select></td>
+  
+  
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  

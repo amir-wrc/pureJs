@@ -1,0 +1,82 @@
+[{
+    "SHORTTITLE":"Vivamus sit Amet Urna a Lectus Ornare Finibu a",
+    "TYPE":"Memo - DL",
+    "STATE":"N/A",
+    "MYROLE":"Lead Author",
+    "SECTION":"XYZ - Lorem I...",
+    "AUTHOR":"Lorem 2 Ipsum...",
+    "DEADLINE":"Jan - 11 - 2020",
+    "ACTIONS":"SELECT"
+},{
+  "SHORTTITLE":"Vivamus sit ",
+  "TYPE":"Memo2 - DL",
+  "STATE":"N/A",
+  "MYROLE":"Lead Author",
+  "SECTION":" Lorem I...",
+  "AUTHOR":"Lorem 3 Ipsum...",
+  "DEADLINE":"Feb - 01 - 2021",
+  "ACTIONS":"SELECT"
+},{
+  "SHORTTITLE":" Urna a Lectus Ornare Finibu a",
+  "TYPE":"Memo3 - DL",
+  "STATE":"N/A",
+  "MYROLE":"Author",
+  "SECTION":"5 - Lorem I...",
+  "AUTHOR":"Lorem Ipsum...",
+  "DEADLINE":"Feb - 15 - 2021",
+  "ACTIONS":"SELECT"
+},{
+  "SHORTTITLE":" sit Amet ",
+  "TYPE":"Memo4 - DL",
+  "STATE":"N/A",
+  "MYROLE":"Reviewer",
+  "SECTION":"ABC - Lorem I...",
+  "AUTHOR":"Lorem Ipsum 4",
+  "DEADLINE":"Mar - 12 - 2021",
+  "ACTIONS":"SELECT"
+},{
+  "SHORTTITLE":"sit Amet Urna Finibu a",
+  "TYPE":"Memo5 - DL",
+  "STATE":"N/A",
+  "MYROLE":"Author",
+  "SECTION":"123 - Lorem I...",
+  "AUTHOR":"Lorem Ipsum...",
+  "DEADLINE":"Apr - 12 - 2021",
+  "ACTIONS":"SELECT"
+},{
+  "SHORTTITLE":"Lectus Ornare Finibu a",
+  "TYPE":"Memo6 - DL",
+  "STATE":"N/A",
+  "MYROLE":"Lead Author",
+  "SECTION":"ABC - Lorem I...",
+  "AUTHOR":"Lorem Ipsum...",
+  "DEADLINE":"Feb - 12 - 2021",
+  "ACTIONS":"SELECT"
+},{
+  "SHORTTITLE":"Vivamus sit Amet Urna a Lectus Ornare Finibu a",
+  "TYPE":"Memo7 - DL",
+  "STATE":"N/A",
+  "MYROLE":"Lead Author",
+  "SECTION":"XYZ1 - Lorem I...",
+  "AUTHOR":" Ipsum...",
+  "DEADLINE":"Feb - 15 - 2021",
+  "ACTIONS":"SELECT"
+},{
+  "SHORTTITLE":"Vivamus sit Amet Urna a Lectus Ornare Finibu a",
+  "TYPE":"Memo - DL",
+  "STATE":"N/A",
+  "MYROLE":"Author",
+  "SECTION":"ABC - Lorem I...",
+  "AUTHOR":"Lorem Ipsum...",
+  "DEADLINE":"Feb - 18 - 2021",
+  "ACTIONS":"SELECT"
+},{
+  "SHORTTITLE":"Vivamus sit Amet Urna a Lectus Ornare Finibu a",
+  "TYPE":"Memo - DL",
+  "STATE":"N/A",
+  "MYROLE":"Author3",
+  "SECTION":"ABC - Lorem I...",
+  "AUTHOR":"Lorem ",
+  "DEADLINE":"OCT - 18 - 2021",
+  "ACTIONS":"SELECT"
+}]
